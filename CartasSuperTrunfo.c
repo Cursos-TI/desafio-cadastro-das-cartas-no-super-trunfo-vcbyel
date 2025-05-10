@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main() {
     
 char estado[100];
@@ -11,19 +10,28 @@ float area;
 float pib;
 int numero;
 
-    printf ("Digite seu Estado:");
-    scanf("&estado");
+//primeira parte da estruturação da 1º carta
+
+printf ("\n---Dados da Primeira Carta---\n");
+
+printf ("Digite seu Estado:");
+    scanf("%s", &estado);
 
     printf ("Código da Carta:");
-    scanf("%s, &codigo");
+    scanf("%s", codigo);
 
     printf ("Cidade:");
     scanf("%s", cidade);
 
     printf ("População:");
-    scanf("%d", populacao);
-    
+    scanf("%d", &populacao);
+
+   printf ("Área Total");
+   scanf("%f", &area);
+
     // até aqui ta funcionando, depois eu faço o mesmo caminho e ele trava!
+    return 0;
+    
     
     
     // Cadastro das Cartas:
