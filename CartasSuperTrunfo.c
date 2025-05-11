@@ -26,11 +26,26 @@ printf ("Digite seu Estado:");
     printf ("População:");
     scanf("%d", &populacao);
 
-   printf ("Área Total");
-   scanf("%f", &area);
+    printf ("Área Total: ");
+    scanf("%f", &area);
+    
+    printf ("PIB:");
+    scanf("%f", &pib);
+    
+    printf ("Número de pontos Turísticos: ");
+    scanf("%d", &numero);
+    
+     // Impressão
+    printf("\n--- Dados da Carta ---\n");
+    printf("Estado: %s\n", estado);
+    printf("Código: %s\n", codigo);
+    printf("Cidade: %s\n", cidade);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: %.2f\n", pib);
+    printf("Nº de Pontos Turísticos: %d\n", numero);
 
-    // até aqui ta funcionando, depois eu faço o mesmo caminho e ele trava!
-    return 0;
+    // ainda nao resolvi a questão de colocar ponto
     
     
     
