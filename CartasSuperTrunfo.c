@@ -74,6 +74,21 @@ printf ("Digite seu Estado:");
     
     printf ("Número de pontos Turísticos: ");
     scanf("%d", &numero2);
+
+
+  // Impressão
+    
+    printf("\n--- Dados da Primeira Carta ---\n"); // cabeçalho impresso depois de os dados inseridos
+    printf("Estado: %s\n", estado);
+    printf("Código: %s\n", codigo);
+    printf("Cidade: %s\n", cidade);
+    printf("População: %d\n", populacao);
+    printf("Área: %.3f km²\n", area);   // na minha ide não saiu esse %.2f veio quando trouxe pra cá
+    printf("PIB: %.2f\n", pib);
+    printf("Nº de Pontos Turísticos: %d\n", numero);
+
+    // ainda nao resolvi a questão de colocar ponto na variavel int populacao
+
     
      // Impressão
     
